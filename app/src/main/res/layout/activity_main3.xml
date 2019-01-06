@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity"
+    android:layout_margin="5dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TENTANG APLIKASI"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="\nAPLIKASI DAFTAR MENARA TELEKOMUNIKASI KOTA TARAKAN BERTUJUAN UNTUK MEMBANTU PEGAWAI DAN MASYARAKAT KOTA TARAKAN DALAM MENDAPATKAN DATA MENARA SECARA CEPAT."
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="\nDIBUAT OLEH MUHAMMAD VARIAN SAYOGA DALAM MELAKSANAKAN KERJA PRAKTEK DI DISKOMINFO SP KOTA TARAKAN."/>
+
+</LinearLayout>
